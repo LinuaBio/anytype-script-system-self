@@ -7,4 +7,10 @@ const globals = {
   },
 };
 
+declare global {
+  interface Window {
+    callGenerateIDFromHash: () => void;
+  }
+}
+
 export { globals }

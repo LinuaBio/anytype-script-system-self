@@ -32,4 +32,4 @@ function handleClick(event: MouseEvent) {
     }
 }
 
-export {handleClick}
+export { handleClick }

@@ -1,3 +1,4 @@
+import { generateIDFromHash } from "./lib/method";
 import { handleClick } from "./lib/mouse-event";
 
 console.log("Script System Started")
@@ -6,6 +7,10 @@ console.log("Script System Started")
 document.addEventListener('click', handleClick);
 
 
+(function (generateIDFromHash) {
+    // 在这里可以调用 generateIDFromHash 函数
+    console.log("generateIDFromHash: ",generateIDFromHash(10));
+})(generateIDFromHash);
 // 假设有一个名为 element 的元素
 
 // 保存原始的点击事件监听器

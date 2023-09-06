@@ -34,8 +34,8 @@ export default defineComponent({
     },
     data() {
         return {
-            windowWidth: 400,
-            windowHeight: 300,
+            windowWidth: 625,
+            windowHeight: 400,
             top: 0,
             left: 0,
             isDragging: false,
